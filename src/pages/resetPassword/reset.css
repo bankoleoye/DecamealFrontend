@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.right-side {
+  margin: 0 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 45%;
+}
+.left-side {
+  width: 55%;
+  height: 100%;
+  background-image: url("../../assets/img/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-container{
+    max-width: 488px;
+}
+.reset-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.password {
+  max-width: 100%;
+  border: 1px solid #1c1c1c;
+  border-radius: 5px;
+}
+
+.show_password {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6a6a6a;
+}
+.password-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.submit_button:hover {
+  background-color: #333333 !important;
+}

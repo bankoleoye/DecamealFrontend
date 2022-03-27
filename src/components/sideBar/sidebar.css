@@ -1,0 +1,28 @@
+.side-bar {
+    background: #1C1C1C;
+    border-radius: 20px;
+    height: 96vh;
+    width:320px;
+    z-index: 2;
+}
+
+.side-bar-nav {
+    height: 24px;
+    padding: 2em;
+    height: 15px;
+    padding: 0.5em;
+    margin-left: 27px;
+    margin-right: 26px;
+}
+
+.side-bar a.active, .side-bar a:hover {
+    background-color: #fff !important;
+    color: #1c1c1c !important;
+}
+
+.dropdown-text {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}

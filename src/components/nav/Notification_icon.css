@@ -1,0 +1,29 @@
+.notification-dropdown-menu {
+    content: '';
+    width: 140px;
+    border-radius: 5px;
+}
+
+.notification-dropdown-menu a {
+    display: block;
+    color: #000;
+    text-Decoration: none;
+    padding: 10px 26px 13px 13px;
+}
+
+.notification-dropdown-menu a:hover, .notification-dropdown-menu a.active {
+    background-color: green;
+    color: #fff;
+}
+
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    position: absolute;
+    display: none;
+    z-index: 2;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}

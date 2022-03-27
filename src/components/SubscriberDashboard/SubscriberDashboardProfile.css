@@ -1,0 +1,53 @@
+.parent-dashboard-container{
+   
+    /* border: red; */
+    /* margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center; */
+
+   width: 76px;
+   height: 100%;
+   border: 1px solid;
+   margin-top: 50px;
+   border-radius: 5px;
+   mix-blend-mode: pass-through;
+   justify-items: center;
+   align-items: center;
+   margin-left: 40px;
+}
+
+.calendar-container{
+    display: flex;
+    border: 1px solid;
+    width: 600px;
+    margin-top: 20px;
+    height: 30px;
+    margin-left: 50px;
+    margin-right: 200px;
+    border-radius:5px;
+    justify-content: center;
+    
+
+
+}
+
+.date{
+    border: 1px solid;
+    margin-top: 20px;
+    height: 20px;
+    
+}
+
+.input-label{
+    width: 185px;
+    height: 28px;
+    margin-top: 538px;
+    margin-left: 598px;
+    border-radius: 28px;
+}
+
+.form-input-section-1{
+    color: #8EA739;
+
+
+}

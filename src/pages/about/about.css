@@ -1,0 +1,93 @@
+.We {
+  color: #34a853;
+}
+
+.about-page-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+}
+
+.about-page-sub-title {
+    font-size: 24px;
+    width: 730px;
+    height: "104px";
+    font-family: "Poppins";
+    font-style: "normal";
+    font-weight: 500;
+    line-height: "120%";
+    color: "#FFFFFF";
+}
+
+.about-page-message {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.button-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.picture {
+  width: 100%;
+  height: auto;
+}
+
+.chef-image {
+  position: absolute;
+  bottom: 17%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.chef2-image {
+  position: absolute;
+  bottom: -0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 70%;
+
+}
+.chef3-image {
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.chef4-image {
+  position: absolute;
+  bottom: 17%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.chef-card {
+    width: 361px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .about-page-title  {
+        font-size: 45px;
+      }
+    .about-page-sub-title {
+        font-size: 16px;
+        width: 95%;
+    }
+    .chef-item-grid:nth-of-type(2) {
+        margin-top: 200px;
+    }
+    .chef-item-grid:nth-of-type(2) > div {
+        align-items: center;
+    }
+    .chef-card {
+        width: 100%;
+    }
+    .chef-card p {
+        max-width: 100%;
+    }
+}

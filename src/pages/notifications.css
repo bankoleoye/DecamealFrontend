@@ -1,0 +1,14 @@
+#outlined-basic{
+    background-color: white;
+    height: 15px;
+    border-radius: 5px;
+}
+
+nav{
+    height: 110px;
+    width: 100%;
+    background-color: #8EA739;
+    margin-bottom: 30px;
+}
+
+

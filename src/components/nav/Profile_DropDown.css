@@ -1,0 +1,19 @@
+.Profile-dropdown-menu {
+    content: '';
+    width: 308px;
+    height: 308px;
+
+    border-radius: 10px;
+}
+
+.Profile-dropdown-menu a {
+    display: block;
+    color: #000;
+    text-Decoration: none;
+    padding: 20px 85px 13px 13px;
+}
+/* 
+.Profile-dropdown-menu a:hover, .Profile-dropdown-menu a.active {
+    background-color: #FFFFFF;
+    color: #fff;
+} */

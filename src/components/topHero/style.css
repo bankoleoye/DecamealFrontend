@@ -1,0 +1,62 @@
+.eat {
+  color: #34a853;
+}
+.tophero-container {
+  background-image: url(https://res.cloudinary.com/afeezagbaje/image/upload/v1646698115/DevBlogs/decameal_hero_image_r6pi2z.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  border: 1px solid;
+}
+
+.parent-container {
+  color: #ffffff;
+  margin: 2rem;
+  height: 100%;
+  font-style: Poppins;
+  font-weight: 700;
+  font-size: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+.paragraph-text {
+  padding: 0;
+  margin: 0;
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 22.8px;
+  border-top: 100px;
+  max-width: 550px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .parent-container {
+    font-size: 60px;
+  }
+  .paragraph-text {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .tophero-container {
+    height: 90vh;
+  }
+  .parent-container {
+    font-size: 96px;
+  }
+    .paragraph-text {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .button {
+    font-size: 14px;
+    background-size: 10px;
+  }
+}

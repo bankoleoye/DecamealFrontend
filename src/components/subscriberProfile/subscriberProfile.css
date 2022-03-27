@@ -1,0 +1,100 @@
+
+
+/* .profile {
+    background-image: url(https://res.cloudinary.com/neemathec/image/upload/v1646608159/Ellipse_1_1_ut69fn.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    border: 1px solid;
+  } */
+
+  .card-container{
+    display: block;
+    width: 50%;
+    margin: 40px auto;
+    border-radius: 10px;
+    background-color: white; 
+
+  }
+  .flex-card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+  }
+  .upload-icon{
+    position: relative;
+    top: -38px;
+    left: 125px;
+  }
+  .profile-photo{
+    border-radius: 100%;
+    width: 174px;
+    height: 173px;
+  }
+  .form-section{
+    width: 100%;
+  }
+  .form-profile-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    stroke: Solid #8EA739
+  }
+  .form-input-section-1{
+    margin: 8px 30px;
+    width: 36%
+  }
+
+
+
+  @media screen and (max-width: 780px) {
+    .form-input-section-1{
+      width: 80%;
+    }
+    
+  }
+  .form-input-section-2{
+    margin: 10px 2px;
+    width: 80%;
+  }
+  .gender-field{
+    align-items: left;
+    justify-content: left;
+  }
+
+.stack-field{
+  align-items: right;
+  justify-content: right;
+}
+
+  .css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+    width: 100%;
+  }
+  .css-w7cp10-MuiFormControl-root-MuiTextField-root{
+    width: 100%;
+  }
+  .form-input-section-3{
+    margin: 20px 2px;
+    width: 100%;
+  }
+.form-button-section{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;}
+ 
+.image-upload>input {
+  display: none;
+}
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+  border: solid #8ea739 2px;
+}
+
+.input-label{ 
+  font-weight: 100;
+  font-style: normal;
+  font-family: initial;
+}
+
